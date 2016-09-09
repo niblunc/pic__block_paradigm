@@ -12,7 +12,8 @@ total of 48 blocks (16 blocks/condition)
 """
 
 from __future__ import absolute_import, division
-from psychopy import locale_setup, visual, core, data, event, logging, sound, gui
+#from psychopy import locale_setup, visual, core, data, event, logging, sound, gui
+from psychopy import visual, core, data, event, logging, sound, gui
 from psychopy.constants import (NOT_STARTED, STARTED, PLAYING, PAUSED,
                                 STOPPED, FINISHED, PRESSED, RELEASED, FOREVER)
 import numpy as np  # whole numpy lib is available, prepend 'np.'
